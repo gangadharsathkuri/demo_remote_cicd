@@ -4,8 +4,8 @@ on:
   push:
     branches: [ "main" ]
 env:
-  BUCKET_NAME : "mydemobuckforcicd34" # Change bucket name
-  AWS_REGION : "us-west-1"
+  BUCKET_NAME : "mydemobuckforcicd349" # Change bucket name
+  AWS_REGION : "eu-north-1"
 # permission can be added at job level or workflow level
 permissions:
   id-token: write   # This is required for requesting the JWT
